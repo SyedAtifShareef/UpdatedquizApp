@@ -1,0 +1,132 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+*{    font-family: 'Karla';
+    font-style: italic;
+    font-weight: 700;
+}
+
+.start{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+}
+
+.heading{
+    font-family: 'Karla';
+    font-style: italic;
+    font-weight: 700;
+    margin-bottom: 0px;
+    font-size: 31.25px;
+    line-height: 37px;
+}
+
+.introText{
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.btnStart{
+
+    width: 193px;
+    height: 52px;
+    color: white;
+    background: #4D5B9E;
+    border-radius: 15px;
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    cursor: pointer;
+    
+}
+
+.text{
+    text-decoration: none;
+    color: wheat;
+    cursor: pointer;
+}
+
+.formContainer{
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    align-items: center;
+    
+}
+
+.margin{
+    margin: 30px;
+}
+
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+.firstbox{
+    width: 100%;
+    height: 2rem;
+}
+.secondbox{
+  width: 100%;
+  height: 2.0rem;
+}
+
+.Qna{
+    margin: 20px 30px 10px 20px;
+    border: 1px solid grey;
+    background-color: rgb(203, 203, 203);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.questionHeading{
+    color: red;
+    margin-left: 15px;
+}
+
+.answers{
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.singleAns{
+    border: 1px solid blue;
+    padding: 15px;
+    margin: 5px;
+}
+
+.submitButton{
+    width: 100%;
+    border: 1px solid red;
+    padding-top: 10px;
+    padding-bottom: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn{
+    width: 50%;
+    height: 50px;
+    font-size: large;
+    background-color: wheat;
+
+}
+
